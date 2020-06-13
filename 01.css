@@ -1,0 +1,229 @@
+ * { /*CSS reset,utilizar o *. Serve para tirar as bordas, pading e boxsizing que o HTML coloca*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+/*geral*/
+body, h1, h2, h3, h4, h5, h6, input, p {
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+  
+}
+
+/*navbar*/
+.list {
+  
+  line-height: 80px;
+  padding: 0 15px;
+  justify-content: space-around;
+}
+
+#navbar, #logo {
+ 
+  background-color: black;
+  padding: 0 15px;
+  margin: 0px;
+  height: 80px;
+  
+  
+}
+
+#navbar h2, #navbar ul, #navbar li, #navbar nav {
+  display: inline-block;
+}
+
+#navbar h2 {
+  margin: 0;
+  line-height: 80px;
+  margin-left: 5px;
+}
+#navbar img {
+  height: 80px;
+  transform: rotate(0deg);
+  position: absolute;
+  
+}
+
+#navbar nav {
+  float: right;
+  
+} 
+
+#navbar ul {
+  margin-top: 22px;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+#navbar-list li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+ 
+  font-size: 1rem;;
+  letter-spacing: 0.2REM;
+  
+}
+
+#navbar-list li a:hover {
+  border-bottom: 2px solid rgb(102, 42, 62);
+  
+}
+
+/*fim*/
+
+/*Foto, Titulo e subtitulo*/
+
+.foto-principal {
+  background-image: url(img/bglua.jpg);
+  background-size: 600px;
+  padding-top: 22vh;
+ 
+  }
+
+.titulo {
+  
+  min-height: 65vh;
+  background-size: 780px; /*Tira as daisys*/
+  padding-top: 18vh;
+}
+
+.titulo h1 {
+  margin-top: -100px;
+    text-align: center;
+    color: white;
+    font-size: 9rem;
+    font-weight: 50;
+  
+    text-shadow: 3px 3px 5px #c96c6c;
+}
+
+.titulo h2 {
+ 
+  
+  color: white;
+  letter-spacing: 0.60rem;
+  text-shadow: 3px 3px 4px #c67a7a;
+  font-size: 1.70rem;
+  text-align: center;
+  }
+
+
+/*sobre*/
+
+.sobre-title {
+  color: white;
+    letter-spacing: 9px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgb(2, 15, 8);
+    padding-top: 60px;
+    font-weight: 500;
+    text-align: center; 
+    margin-bottom: 0px;
+    
+}
+
+.container {
+  width: 100%;
+    padding-right: 0px 15px;
+    padding-left: 0px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sobre p {
+  color: antiquewhite;
+ margin-right: 30px;
+  max-width: 650px;
+  padding-top: 80px;
+  margin-left: auto;
+  line-height: 1.9;
+}
+
+#sobre {
+  background-color: rgb(102, 42, 62);
+  box-sizing: border-box;
+  height: 680px;
+}
+
+.img-deisi{
+  max-width: 26%;
+  height: auto;
+  border-radius: 1rem;
+  float: left!important;
+  margin-left: 110px;
+  margin-top: 120px;
+}
+
+/*Cursos complementares*/
+
+.cursos{
+  background-image: url(img/bglua.jpg);
+}
+
+.complementares {
+  
+    color: white;
+    letter-spacing: 9px;
+    text-shadow: 4px 4px 6px rgb(204, 24, 54);
+    padding: 60px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+} 
+
+.curs {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 130px;
+    color: white;
+    font-size: 25px;
+    height: 400px;
+    line-height: 4rem;
+}
+
+
+/*Contato*/
+
+
+.redes-title {
+  letter-spacing: 9px;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px black;
+  padding-top: 60px;
+} 
+
+  .redes {
+    background-color: rgb(102, 42, 62);
+    text-align: center;
+    color: white;
+    
+  }
+
+  
+  .grid {
+    font-size: 4em;
+    padding: 60px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+.grid a {
+  color: black;
+}
+
+/*Footer inicio*/
+footer {
+  background-image: url(img/bglua.jpg);
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
