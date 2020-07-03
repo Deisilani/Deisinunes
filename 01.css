@@ -227,3 +227,154 @@ footer {
   text-align: center;
 }
 
+/*Responsive titulo principal*/
+
+@media (max-width: 440px) {
+  .titulo h1 {
+    font-size: 2rem;
+}
+}
+
+@media (max-width: 540px) {
+  .titulo h1 {
+    font-size: 3rem;
+}
+}
+
+@media (max-width: 930px) {
+  .titulo h1 {
+    font-size: 4rem;
+}
+}
+
+@media (max-width: 1200px) {
+  .titulo h1 {
+    font-size: 5rem;
+}
+}
+
+/*Responsive NavBar*/
+
+@media (max-width: 425px) {
+  #navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    
+    letter-spacing: -1px;
+  }
+}
+@media (max-width: 540px) {
+  #navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    
+    letter-spacing: -1px;
+  }
+}
+@media (max-width: 930px) {
+  #navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    
+    letter-spacing: -1px;
+  }
+}
+@media (max-width: 1200px) {
+  #navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    
+    letter-spacing: -1px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  #navbar img {
+    display: none;
+   
+  }
+}
+@media (max-width: 540px) {
+  #navbar img {
+    display: none;
+   
+  }
+}
+@media (max-width: 930px) {
+  #navbar img {
+    display: none;
+   
+  }
+}
+@media (max-width: 1200px) {
+  #navbar img {
+    display: none;
+   
+  }
+}
+/*Responsive subtitulo*/
+
+@media (max-width: 425px) {
+  .titulo h2 {
+      font-size: 0.7rem;
+  }
+  }
+
+@media (max-width: 540px) {
+.titulo h2 {
+    font-size: 0.80rem;
+}
+}
+
+@media (max-width: 930px) {
+  .titulo h2 {
+      font-size: 0.92rem;
+  }
+  }
+
+  @media (max-width: 1200px) {
+    .titulo h2 {
+        font-size: 1rem;
+    }
+    }
+
+    /*Responsive Sobre Mim*/
+
+    @media (max-width: 425px) {
+      .img-deisi {
+        max-width: 26%;
+    height: auto;
+    border-radius: 1rem;
+    float: left!important;
+    margin-left: 10px;
+    margin-top: 60px;
+      }
+    }
+
+    @media (max-width: 425px) {
+      .sobre-title {
+        color: white;
+    letter-spacing: 9px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgb(2, 15, 8);
+    padding-top: 25px;
+    font-weight: 500;
+    margin-bottom: 0px;
+      }
+    }
+
+    @media (max-width: 425px) {
+      #sobre p {
+        color: antiquewhite;
+        margin-right: 30px;
+        max-width: 0.px;
+        padding-top: 20px;
+        margin-left: 10px;
+        line-height: 1.9;
+      }
+    }
